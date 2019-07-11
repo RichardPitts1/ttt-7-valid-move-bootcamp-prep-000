@@ -2,6 +2,7 @@
 def valid_move?(board, index)
   position_taken?(array, ind)
   valid_move?(board, index)
+  on_board?(num)
 end   
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
@@ -39,4 +40,3 @@ def valid_move?(board, index)
   else
     return false
   end
-end
